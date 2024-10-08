@@ -1,0 +1,295 @@
+.comand {
+  font-family: 'Montserrat-SemiBold';
+}
+
+/* Section uni */
+.uni_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.uni_section {
+  padding: 100px 0 200px;
+}
+.uni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.uni_info {
+  width: 675px;
+  line-height: 29.08px;
+}
+.uni_title {
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+.uni_subtitle {
+  font-size: 20px;
+  font-family: 'gilroy-regular';
+  color: rgba(56, 56, 56, 1);
+  margin-top: 30px;
+}
+
+/* Section title */
+.comand_section {
+  margin: 9vw auto 8vw;
+  text-align: center;
+}
+.conand_title {
+  font-size: 4.44444em;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.comand_section_img{
+  margin: 0 auto;
+}
+
+/* Section personal */
+.personal {
+  margin: 200px 0;
+  position: relative;
+  color: white;
+}
+.personal_bgd_y {
+  background: rgba(255, 190, 0, 1);
+  height: 800px;
+}
+.personal_bgd_b {
+  background: #1c85a6;
+  height: 800px;
+}
+.personal_info {
+  position: absolute;
+  width: 1600px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.personal_title {
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+.personal_subtitle {
+  font-size: 30px;
+  font-family: 'gilroy-medium';
+}
+.personal_div {
+  padding: 1px;
+}
+
+/* Section sotrudnici */
+.uni_sotrudnici {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.sotrudnici {
+  padding: 0 20px;
+}
+.sotrudnici_img {
+  margin-bottom: 40px;
+}
+/* .sotrudnici_2 {
+  margin-bottom: 300px;
+} */
+/* .sotrudnici_3 {
+  margin-bottom: 80px;
+} */
+
+@media (max-width: 1590px) {
+  .personal {
+    margin: 100px 0;
+  }
+  .uni_img {
+    width: calc(100% / 2.5);
+  }
+  .about_img {
+    width: calc(100% / 2);
+    margin-left: 50px;
+  }
+  .personal_info {
+    max-width: 90vw;
+  }
+  .uni_container {
+    padding: 0 25px;
+  }
+  .uni_gap {
+    margin: 40px;
+  }
+}
+@media (max-width: 1300px) {
+  .personal_bgd_y,
+  .personal_bgd_b {
+    height: 500px;
+  }
+}
+@media (max-width: 1100px) {
+  .uni_section {
+    padding: 0 0 70px;
+  }
+  .personal_bgd_y,
+  .personal_bgd_b {
+    height: 400px;
+  }
+}
+@media (max-width: 1000px) {
+  .uni_gap {
+    margin: 20px;
+  }
+  .conand_title {
+    margin-bottom: 50px;
+  }
+  .conand_title_com {
+    margin-bottom: 0;
+  }
+  .about_img {
+    margin: 50px 0 0 ;
+  }
+  .uni_title {
+    margin-bottom: 40px;
+  }
+  .uni_subtitle {
+    margin-top: 10px;
+  }
+  .uni_sotrudnici {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .uni {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .uni_revers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .uni_img {
+    width: 100%;
+  }
+  .uni_img_1000 {
+    width: 490px;
+  }
+  .uni_info {
+    width: 100%;
+  }
+  .sotrudnici_2,
+  .sotrudnici_3 {
+    margin-bottom: 0;
+  }
+  .personal_info {
+    top: 55%;
+  }
+  .personal_bgd_y,
+  .personal_bgd_b {
+    height: 500px;
+  }
+  .personal_title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .personal_subtitle {
+    font-size: 24px;
+  }
+  .sotrudnici_img {
+    margin-top: 100px;
+  }
+  .personal {
+    color: black;
+    text-align: center;
+    padding: 200px 0 250px;
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .uni_sotrudnici {
+    padding-bottom: 0;
+  }
+  .personal_title {
+    font-size: 30px;
+  }
+  .personal_subtitle {
+    font-size: 24px;
+  }
+  .personal {
+    padding: 100px 0 150px;
+  }
+  .personal_top {
+    padding-bottom: 250px;
+  }
+  .sotrudnici_img {
+    margin-top: 50px;
+  }
+  .conand_title {
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .conand_title_com {
+    margin: 0;
+  }
+  .uni_gap {
+    margin: 20px;
+  }
+  .personal_info {
+    top: 390px;
+  }
+  .sotrudnici,
+  .uni_info_cont {
+    padding: 0 16px;
+  }
+  .personal_bgd_y,
+  .personal_bgd_b {
+    height: 400px;
+  }
+  .uni_container {
+    padding: 0;
+  }
+  .uni_info {
+    margin: 0 16px;
+  }
+  .uni_section {
+    padding-bottom: 50px;
+  }
+  .uni_title {
+    font-size: 30px;
+  }
+  .uni_subtitle {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url(../../../../fonts/gilroy-regular.ttf);
+}
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url(../../../../fonts/gilroy-medium.ttf);
+}

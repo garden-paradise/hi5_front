@@ -1,0 +1,161 @@
+.examination {
+  background: linear-gradient(91.18deg, #1c85a6 1.39%, #6c5ecf 99.14%);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.examination_block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.examination_img {
+  margin: 0 auto 50px;
+}
+
+.examination_title {
+  font-family: 'gilroy-medium';
+  margin: 0 14vw 50px;
+}
+
+.examination_title_ban {
+  width: 400px;
+  line-height: 35px;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.examination_subtitle {
+  font-family: 'Montserrat-SemiBold';
+}
+.examination_checkbox {
+  margin: 0 20vw;
+}
+.examination_checkbox_input {
+  border: 1px solid blue;
+}
+input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+}
+
+.examination_age {
+  margin: 70px 0 30px;
+}
+
+.catalog_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.examination_form {
+  display: flex;
+  justify-content: center;
+}
+
+.examination_form_input {
+  height: 40px;
+  width: 120px;
+  background-color: inherit;
+  border: 0;
+  border-bottom: 1px solid white;
+  margin-right: 20px;
+  font-family: 'Montserrat-SemiBold';
+  outline: none;
+  text-align: center;
+  user-select: none;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.examination_form_input:focus {
+  border-bottom: 1px solid rgba(255, 190, 0, 1);
+}
+
+input::-webkit-datetime-edit-day-field:focus,
+input::-webkit-datetime-edit-month-field:focus,
+input::-webkit-datetime-edit-year-field:focus {
+  background: rgba(255, 190, 0, 1);
+  color: white;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.examination_form_btn {
+  height: 50px;
+  width: 180px;
+  background-color: rgba(255, 190, 0, 1);
+  border: 0;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Montserrat-SemiBold';
+  padding: 0 1vw;
+  cursor: pointer;
+  line-height: 50px;
+  user-select: none;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url(../../../fonts/gilroy-medium.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@media (max-width: 1550px) {
+  .catalog_container {
+    margin: 0 50px;
+  }
+}
+@media (max-width: 480px) {
+  .catalog_container {
+    padding: 0 16px;
+  }
+  .examination_form_input {
+    margin: 0;
+  }
+  .examination_form_btn {
+    width: 150px;
+    margin-top: 50px;
+  }
+  .examination_form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .examination_title_ban {
+    width: 250px;
+    line-height: 25px;
+  }
+  .examination_title {
+    margin-bottom: 20px;
+  }
+  .examination_checkbox {
+    width: 280px;
+  }
+  .examination_age {
+    margin: 30px 20px;
+  }
+  .examination_img {
+    width: 70px;
+    margin-bottom: 30px;
+  }
+  .examination_form_btn {
+    margin-top: 30px;
+  }
+}

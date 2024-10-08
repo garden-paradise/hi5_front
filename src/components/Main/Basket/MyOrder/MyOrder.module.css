@@ -1,0 +1,27 @@
+.myOrder_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+/* @font-face {
+  font-family: 'gilroy-regular';
+  src: url(../../../fonts/gilroy-regular.ttf);
+}
+ */
+
+@media (max-width: 1000px) {
+  .basket_container {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 479px) {
+  .basket_container {
+    padding: 0 16px;
+  }
+}
+
+
+
+
+

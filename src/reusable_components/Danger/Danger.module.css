@@ -1,0 +1,72 @@
+.danger {
+  height: 9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  /* position: fixed; */
+}
+
+.danger_title {
+  font-family: 'Montserrat-Medium';
+  color: rgba(196, 196, 196, 1);
+  font-size: 30px;
+}
+
+.danger_img {
+  width: 4.5vw;
+  margin-right: 5vw;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(../../fonts/Montserrat-Medium.ttf);
+}
+
+@media (max-width: 1100px) {
+  .danger {
+    padding: 0 25px;
+  }
+  .danger_title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 900px) {
+  .danger {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 770px) {
+  .danger_title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 630px) {
+  .danger_title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .danger {
+    height: 60px;
+    padding: 0 16px;
+    width: 100%;
+  }
+  .danger_img {
+    width: 25px;
+  }
+  .danger_title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 370px) {
+  .danger {
+    margin-top: 5px;
+  }
+}

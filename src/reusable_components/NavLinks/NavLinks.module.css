@@ -1,0 +1,40 @@
+.nav {
+  width: 1600px;
+  margin: 40px auto 0;
+  font-size: 16px;
+}
+.nav_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'gilroy-regular';
+}
+.nav_li {
+  list-style-type: none;
+}
+.nav_link {
+  color: rgba(149, 149, 149, 1);
+}
+.nav_link_active {
+  color: black;
+}
+.nav_line {
+  margin: 0 10px;
+}
+
+@media (max-width: 1599px) {
+  .nav {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .nav {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 480px) {
+  .nav {
+    padding: 0 16px;
+  }
+}

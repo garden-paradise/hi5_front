@@ -1,0 +1,169 @@
+.documentation_h1 {
+  font-size: 60px;
+  font-family: 'Montserrat-SemiBold';
+  margin: 9vw 0 8vw;
+}
+
+.documentation_form_btn {
+  width: 250px;
+  height: 60px;
+  border: 1.5px solid rgba(255, 190, 0, 1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  font-family: 'Montserrat-SemiBold;';
+  background: inherit;
+  margin-top: 3vw;
+  cursor: pointer;
+}
+
+.documentation_info_link {
+  text-decoration: none;
+  color: black;
+}
+
+.documentation {
+  margin: 40px 0 20vw;
+}
+
+.documentation_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.documentation_div2 {
+  margin-right: 12vw;
+}
+
+.documentations_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.documentation_info {
+  margin-bottom: 3vw;
+}
+
+.documentation_info_title {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@media (max-width: 1599px) {
+  .documentations_container {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1100px) {
+  .documentation_div2 {
+    margin-right: 5vw;
+  }
+  .documentation_info_title {
+    width: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .documentations_container {
+    padding: 0 25px;
+  }
+  .documentation_logoImg {
+    width: 70%;
+  }
+  .documentation_form_btn {
+    width: 200px;
+    height: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .documentation_div2 {
+    width: 40%;
+  }
+}
+@media (max-width: 780px) {
+  .documentation_divs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .documentation_div2 {
+    margin: 0 0 45px;
+  }
+}
+@media (max-width: 720px) {
+  .documentation_div2 {
+    margin: 0;
+  }
+  .documentation_h1 {
+    font-size: 30px;
+  }
+  .documentation_info_title {
+    font-size: 20px;
+  }
+  .documentation_form_btn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .documentation_h1 {
+    font-size: 25px;
+  }
+  .documentation_info_title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .documentations_container {
+    padding: 0 16px;
+  }
+  .documentation_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .documentation_div1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .documentation_div2 {
+    width: 100px;
+    margin: 0 0 50px;
+  }
+  .documentation_form_btn {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  .documentation_logoImg {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .documentation_h1,
+  .documentation_block {
+    margin-left: 8.6vw;
+  }
+}
+@media (max-width: 390px) {
+  .documentation_form_btn {
+    font-size: 10px;
+    width: 45vw;
+    height: 8vw;
+  }
+}
+@media (max-width: 340px) {
+  .documentation_form_btn {
+    width: 38vw;
+  }
+}

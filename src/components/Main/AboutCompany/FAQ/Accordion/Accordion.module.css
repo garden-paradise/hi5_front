@@ -1,0 +1,70 @@
+.faq_item {
+  border: 1px solid #c4c4c4;
+  border-width: 1px 0;
+  padding: 50px 0;
+}
+
+.faq_item_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: 'gilroy-medium';
+  cursor: pointer;
+}
+
+.faq_item_title {
+  font-size: 30px;
+}
+
+.faq_item_subtitle_div {
+  overflow: hidden;
+  -webkit-transition: all 600ms easy-in-out;
+  -o-transition: all 600ms easy-in-out;
+  transition: all 600ms easy-in-out;
+  opacity: 0;
+  height: 0;
+}
+
+.faq_item_subtitle {
+  font-size: 26px;
+  color: rgba(149, 149, 149, 1);
+  margin-top: 40px;
+  -webkit-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.faq_item_href {
+  text-decoration: none;
+}
+
+.show {
+  opacity: 1;
+  -webkit-transition: all 600ms easy-in-out;
+  -o-transition: all 600ms easy-in-out;
+  transition: all 600ms easy-in-out;
+}
+
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url(../../../../..//fonts/gilroy-medium.ttf);
+}
+
+@media (max-width: 480px) {
+  .faq_item_title {
+    font-size: 14px;
+  }
+  .faq_item_subtitle {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .faq_img {
+    width: 15px;
+  }
+  .faq_item {
+    padding: 10px 0;
+  }
+}

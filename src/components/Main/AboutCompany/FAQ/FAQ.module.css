@@ -1,0 +1,63 @@
+.faq {
+  margin: 40px 0 20vw;
+}
+
+.faq_info {
+  width: 90%;
+}
+
+.faq_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.faq_title {
+  font-size: 60px;
+  font-family: 'Montserrat-SemiBold';
+  margin: 9vw 0 8vw;
+}
+
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url(../../../../fonts/gilroy-medium.ttf);
+}
+
+@media (max-width: 1599px) {
+  .faq_container {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .faq_title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .faq_container {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 720px) {
+  .faq_title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .faq_title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 480px) {
+  .faq_container {
+    padding: 0 16px;
+  }
+  .faq_title {
+    font-size: 18px;
+  }
+  .documentation_info_nav {
+    font-size: 10.66px;
+  }
+  .faq_info {
+    width: 100%;
+  }
+}

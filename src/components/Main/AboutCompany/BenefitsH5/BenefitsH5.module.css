@@ -1,0 +1,236 @@
+.benefitsH5 {
+  font-family: 'Montserrat-SemiBold';
+  color: rgba(56, 56, 56, 1);
+}
+
+/* Section uni */
+.uni_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.uni_section {
+  padding-bottom: 200px;
+}
+.uni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.uni_revers {
+  margin-top: 100px;
+}
+.uni_info {
+  width: 615px;
+}
+.uni_title {
+  font-size: 30px;
+  text-align: left;
+}
+.uni_subtitle {
+  font-size: 20px;
+  font-family: 'gilroy-regular';
+  color: rgba(149, 149, 149, 1);
+  margin-top: 30px;
+}
+.uni_gap {
+  margin: 50px;
+}
+
+/* Section benefits */
+.benefitsH5_benefitsH5_section {
+  margin: 9vw auto 8vw;
+  text-align: center;
+}
+.benefitsH5_benefitsH5_info {
+  width: 80%;
+  margin: 0 auto;
+}
+.benefitsH5_benefitsH5_title {
+  font-size: 4.44444em;
+}
+.benefitsH5_img {
+  margin: 100px auto;
+}
+
+/* Section block */
+.block_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.block_img_line {
+  margin: 15px 10px 0 0;
+}
+
+/* Section form */
+.form {
+  width: 578px;
+}
+.form_title {
+  font-size: 60px;
+}
+.form_subtitle {
+  font-size: 20px;
+  font-family: 'gilroy-regular';
+  color: rgba(56, 56, 56, 1);
+}
+.block_top {
+  margin-top: 60px;
+}
+
+@media (max-width: 1590px) {
+  .uni_container,
+  .benefitsH5_benefitsH5_info {
+    padding: 0 25px;
+  }
+  .uni_img {
+    width: calc(100% / 2);
+  }
+  .uni_info {
+    width: 500px;
+  }
+}
+@media (max-width: 1200px) {
+  .block_img_line {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .uni_gap {
+    margin: 10px;
+  }
+  .uni_info {
+    width: 460px;
+  }
+}
+@media (max-width: 1000px) {
+  .benefitsH5_benefitsH5_info {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .uni {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .uni_revers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .uni_img {
+    width: 100%;
+  }
+  .uni_gap {
+    margin: 3vw;
+  }
+  .uni_info {
+    width: 100%;
+  }
+  .uni_section {
+    padding-bottom: 100px;
+  }
+  .block_top {
+    margin-top: 30px;
+  }
+  .uni_subtitle {
+    margin-top: 10px;
+  }
+  .uni_center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  .benefitsH5_benefitsH5_title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .benefitsH5_img {
+    margin-top: 50px;
+  }
+  .block_top {
+    margin-top: 10px;
+  }
+  .benefitsH5_benefitsH5_info {
+    padding: 0 16px;
+  }
+  .uni_container {
+    padding: 0;
+  }
+  .uni_info {
+    margin: 0 16px;
+  }
+  .uni_revers {
+    margin-top: 50px;
+  }
+  .uni_section {
+    padding-bottom: 50px;
+  }
+  .uni_gap {
+    margin: 10px;
+  }
+  .uni_title {
+    font-size: 30px;
+  }
+  .uni_subtitle {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .uni_btn {
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+  }
+  .home_isFuture_title {
+    font-size: 20px;
+  }
+  .home_actual_section {
+    padding: 50px 0;
+  }
+  .uni_img_block1 {
+    width: 243px;
+    height: 119px;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffbe00),
+      to(#6c5ecf)
+    );
+    background: -o-linear-gradient(top, #ffbe00 0%, #6c5ecf 100%);
+    background: linear-gradient(180deg, #ffbe00 0%, #6c5ecf 100%);
+  }
+  .form {
+    padding: 0 16px;
+  }
+  .form_title {
+    font-size: 30px;
+  }
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url(../../../../fonts/gilroy-regular.ttf);
+}

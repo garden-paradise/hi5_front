@@ -1,0 +1,351 @@
+.basket_items_buy_form_t {
+  font-size: 30px;
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 50px;
+}
+
+.searchInput_form_block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.basket {
+  margin: 6vw 0 20vw;
+}
+
+.basket_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.basket_zacaz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.basket_zacaz_num,
+.basket_zacaz_num_delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.basket_zacaz_num {
+  font-size: 40px;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.basket_zacaz_title {
+  margin-left: 10px;
+}
+
+.basket_zacaz_num_delete {
+  font-size: 20px;
+  color: rgba(149, 149, 149, 1);
+  font-family: 'Montserrat-Medium';
+  cursor: pointer;
+}
+
+.basket_zacaz_num_delete_img {
+  margin-left: 30px;
+}
+
+.basket_title {
+  font-size: 60px;
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 5vw;
+}
+
+.basket_items_buy {
+  display: grid;
+  grid-template-columns: 35vw 1px 35vw;
+  grid-gap: 50px;
+  margin-top: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.basket_items_receipt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 36vw;
+}
+
+.production_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 3.3vw;
+  margin: 15px 0;
+}
+
+.production_item_info {
+  padding: 0 4.4vw;
+}
+
+.production_item_info_title {
+  font-size: 26px;
+}
+
+.production_item_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(255, 190, 0, 1);
+  cursor: pointer;
+}
+
+.production_item_link_arrow {
+  margin-left: 5vw;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.production_item_title {
+  font-family: 'Montserrat-Medium';
+}
+
+.production_item_info_subtitle {
+  font-family: 'Montserrat-Medium';
+  margin: 2.5vw 0 4vw;
+}
+
+.basket_items_receipt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.basket_receipt_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.basket_receipt_div_sum {
+  border-top: 1px solid #c4c4c4;
+  padding-top: 30px;
+}
+
+.basket_receipt_title {
+  font-family: 'gilroy-regular';
+  color: rgba(56, 56, 56, 1);
+}
+
+.basket_items_receipt_t {
+  font-family: 'Montserrat-SemiBold';
+}
+
+.basket_receipt_money {
+  font-family: 'Montserrat-SemiBold';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.basket_receipt_val {
+  margin-left: 5px;
+}
+
+.basket_receipt_btn {
+  border: 1px solid #ffbe00;
+  border-radius: 50px;
+  background: inherit;
+  font-size: 24px;
+  font-family: 'Montserrat-SemiBold';
+  height: 60px;
+  width: 100%;
+  margin-top: 75px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.basket_items_buy_sucessful {
+  color: red;
+  font-family: 'gilroy-regular';
+  text-align: center;
+  margin: 50px 40px 0;
+}
+
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url(../../../../fonts/gilroy-regular.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(../../../../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url(../../../../fonts/gilroy-medium.ttf);
+}
+
+@media (max-width: 1200px) {
+  .basket_title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .basket_items_buy_sucessful {
+    margin: 50px 13vw 0;
+  }
+  .basket_receipt_btn {
+    height: 50px;
+  }
+  .basket_items_buy {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+  .searchInput_form {
+    width: 70vw;
+    margin: 0 auto;
+  }
+  .basket_items_img {
+    display: none;
+  }
+  .basket_title {
+    font-size: 40px;
+  }
+  .basket_zacaz_num {
+    font-size: 25px;
+  }
+  .basket_items_receipt {
+    margin-top: 50px;
+    width: 56vw;
+  }
+}
+@media (max-width: 767px) {
+  .production_item {
+    padding: 0;
+  }
+}
+@media (max-width: 700px) {
+  .basket_items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .basket_receipt_title,
+  .basket_receipt_num,
+  .basket_receipt_val,
+  .basket_receipt_btn {
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .basket_title {
+    font-size: 30px;
+  }
+  .basket_items_buy_form_t {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .basket_items_buy_sucessful {
+    margin: 50px 40px 0;
+  }
+  .searchInput_form {
+    width: 90%;
+  }
+  .basket_items_receipt {
+    width: 90%;
+  }
+  .basket_receipt_btn {
+    height: 35px;
+    width: 160px;
+    margin: 45px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .production_item_title {
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+  }
+  .production_item_info_title {
+    font-size: 16px;
+  }
+  .production_item_info_subtitle {
+    font-size: 12px;
+  }
+  .basket_receipt_title,
+  .basket_receipt_num,
+  .basket_receipt_val,
+  .basket_receipt_btn {
+    font-size: 14px;
+  }
+  .basket_title {
+    font-size: 22px;
+  }
+  .basket_items_buy_form_t {
+    font-size: 16px;
+  }
+  .basket_container {
+    padding: 0 16px;
+  }
+  .basket_container {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 340px) {
+  .production_item_img {
+    width: 50px;
+    height: 160px;
+  }
+  .basket_title {
+    font-size: 18px;
+    margin: 0;
+  }
+  .basket_items_buy_form_t {
+    margin-bottom: 15px;
+  }
+}

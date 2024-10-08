@@ -1,0 +1,155 @@
+.partners {
+  margin: 6vw 0 15vw;
+}
+
+.partners_divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.partners_div {
+  margin-left: 8.6vw;
+}
+
+.partners_div2 {
+  margin-right: 12vw;
+}
+
+.partners_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 3vw;
+}
+
+.partners_info {
+  margin-bottom: 20px;
+}
+
+.partners_info_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.partners_info_title {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 20px;
+}
+
+.partners_info_sibtitle {
+  margin-bottom: 3vw;
+  width: 400px;
+}
+
+.partners_info_cont {
+  margin-bottom: 2.5vw;
+}
+
+.partners_info_cont a {
+  color: #000;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.partners_info_cont_add {
+  font-family: 'gilroy-regular';
+}
+
+.partners_info_contacts_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 18vw;
+}
+
+.partners_cont_title {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.partners_num_divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners_num {
+  margin: 10px 0;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(../../../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url(../../../fonts/gilroy-regular.ttf);
+}
+
+@media (max-width: 1100px) {
+  .partners_info_sibtitle {
+    margin-bottom: 5vw;
+  }
+  .partners_info_contacts_link {
+    width: 22vw;
+  }
+}
+@media (max-width: 1000px) {
+  .partners_div2 {
+    margin-right: 2vw;
+  }
+}
+@media (max-width: 880px) {
+  .partners_divs {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .partners_div2 {
+    margin-top: 25px;
+  }
+  .partners_info_contacts_link {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .partners_info_title {
+    font-size: 16px;
+  }
+  .partners_cont_title {
+    font-size: 16px;
+    margin: 15px 0 10px;
+  }
+  .partners_info_cont a {
+    font-size: 17px;
+  }
+  .partners_info_contacts_link {
+    width: 200px;
+    margin-top: 15px;
+  }
+  .footer_link {
+    width: 28px;
+  }
+  .partners_caret {
+    width: 15px;
+  }
+  .partners_info_sibtitle {
+    width: 80vw;
+  }
+}
